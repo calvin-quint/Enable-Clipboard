@@ -1,3 +1,28 @@
+<#
+.SYNOPSIS
+    This script enable the Windows Clipboard if not enabled
+    
+.DESCRIPTION
+      This PowerShell script automates the process changing the registry keys to enable the Windows Clipboard
+    
+.PARAMETER 
+   
+    
+.NOTES
+    File Name      : Enable-Clipboard.ps1
+    Author         : Calvin Quint
+    License        : GNU GPL
+    Permission     : You are free to change and re-distribute this script as per the terms of the GPL.
+    
+.LINK
+    GitHub Repository: https://github.com/calvin-quint/Enable-Clipboard
+    
+.EMAIL
+    Contact email: github@myqnet.io
+    
+#>
+
+
 # Function to enable clipboard history
 function Enable-ClipboardHistory {
     param (
